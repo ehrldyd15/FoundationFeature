@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 public extension UIColor {
-    
+    @available(iOS 11.0, *)
     static let customColor: UIColor? = UIColor(named: "BG")
-    
 }

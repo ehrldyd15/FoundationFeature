@@ -1,7 +1,7 @@
 //import XCTest
-//@testable import Foundation
+//@testable import MetFoundation
 //
-//final class FoundationTests: XCTestCase {
+//final class MetFoundationTests: XCTestCase {
 //    func testExample() throws {
 //        // XCTest Documentation
 //        // https://developer.apple.com/documentation/xctest
