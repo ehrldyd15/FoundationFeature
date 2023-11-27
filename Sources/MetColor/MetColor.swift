@@ -9,5 +9,5 @@ import Foundation
 import UIKit
 
 public struct MetColor {
-    static let customColor = UIColor(named: "BG")
+    public static let customColor = UIColor(named: "BG")
 }
