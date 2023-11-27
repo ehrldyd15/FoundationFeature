@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
-public struct MetColor {
-    public static let customColor = UIColor(named: "BG")
+@available(iOS 13.0, *)
+extension UIColor {
+    
+    class func getBackgroundColor() -> UIColor {
+        return UIColor(named: "BG") ?? .green
+    }
+    
 }
