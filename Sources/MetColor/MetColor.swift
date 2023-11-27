@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 @available(iOS 13.0, *)
-public extension UIColor {
+extension UIColor {
     
-    class func getBackgroundColor() -> UIColor {
+    public class func getBackgroundColor() -> UIColor {
         return UIColor(named: "BG") ?? .green
     }
     
